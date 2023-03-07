@@ -4,6 +4,10 @@ import functions
 todos = functions.get_todos()
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e49d4ad (Initial commit)
 def add_todo():
     todo = st.session_state['new_todo_widget'] + "\n"
     todos.append(todo)
